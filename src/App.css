@@ -1,0 +1,298 @@
+/* App.css */
+
+body, html, #root {
+  height: auto;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  background-color: white;
+  margin-left: 450px;
+  width: 350px;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+}
+
+.content {
+  margin-top: 60%;
+}
+
+.content h1 {
+  font-size: 24px;
+  color: #1f2937;
+}
+
+.content .brand {
+  font-weight: bold;
+}
+
+.content p {
+  color: #6b7280;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.buttons {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -15px;
+  gap:10px;
+}
+
+.create-btn {
+  background-color: #6c4fcf;
+  color: white;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.create-btn:hover {
+  background-color: #5d42b5;
+}
+
+.buttons .login-btn {
+  background-color: #cec3ef;
+  color: #6c4fcf;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-btn:hover {
+  background-color: #c5bae5;
+}
+
+.create-btn:focus,
+.login-btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.register .card{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px 30px;
+}
+
+.registerHeading{
+  margin-top: -20px;
+  color: black;
+  width: 50%;
+}
+
+.registerHeading h2{
+  font-weight: 500;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  background: transparent;
+  outline: none;
+  padding: 13px;
+  border: 1px solid #bcbdbf;
+  border-radius: 10px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+input[type="radio"]{
+  background-color:transparent;
+}
+
+input:focus{
+  border: 1px solid #6c4fcf;
+}
+
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px #ffffff inset !important;  /* white background */
+  -webkit-text-fill-color: #000000 !important;              /* black text */
+  transition: background-color 9999s ease-out, color 9999s ease-out;
+}
+
+input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 30px #f9f9f9 inset !important;  /* light grey when focused */
+  -webkit-text-fill-color: #000000 !important;              /* black text */
+}
+
+.labelBox{
+  background-color: white;
+  display: flex;
+  width: 45%;
+}
+
+.labelBox label{
+  color: #6c4fcf ;
+  background-color: white;
+  padding-left: 15px;
+  padding-right: 20px;
+  font-size:15px;
+  position: relative;
+  top:12px;
+  left: 30px;
+}
+
+.required {
+  color: red;
+  margin-left: 4px;
+  position: relative;
+  top:10px;
+  left: 11px;
+}
+
+input[type="radio"]{
+  background-color: white;
+}
+
+label{
+  color: rgb(110, 110, 110);
+}
+
+p{
+  color: black;
+}
+
+.choice{
+  margin-top: -10px;
+  margin-bottom: 20px;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.welcome{
+  color: black;
+}
+
+.welcome .card{
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgb(247, 233, 233);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0px 30px;
+  height: 90vh;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.welcomeHeading h2{
+  font-weight: 500;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed rgb(214, 213, 213);
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed rgb(214, 213, 213);
+}
+
+.name{
+  font-weight: 500;
+}
+
+.email{
+  font-weight: 400;
+  font-size: 13px;
+  color: #555556;
+}
+
+img{
+  height: 60px;
+  border-radius: 50%;
+}
+
+.camera{
+  color: black;
+  background: white;
+  border-radius: 50%;
+  padding: 2px;
+  position: relative;
+  top: 0px;
+  right: 20px;
+}
+
+.desc{
+  font-size: 14px;
+  color: #4d4d4d;
+  padding-bottom: 10px;
+  border-bottom: 1px dashed rgb(214, 213, 213);
+}
+
+.login .card{
+  height: 76vh;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.loginHeading h2{
+  color: black;
+  width: 50%;
+  font-weight: 500;
+  margin-top: -100px;
+}
+
+.login .text{
+  font-size: 15px;
+  color: #555556;
+  margin-top: -10px;
+}
+
+.loginbtn {
+  background-color: rgb(133, 133, 135);
+  color: white;
+  margin-top: 20px;
+  padding: 14px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.loginbtn:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.loginbtn:hover{
+  background-color: rgb(110, 110, 112);
+}
+.box label{
+  color: #6c4fcf ;
+  background-color: white;
+  padding: 0px 7px;
+  font-size:15px;
+  position: relative;
+  top:12px;
+  left: 15px;
+}
