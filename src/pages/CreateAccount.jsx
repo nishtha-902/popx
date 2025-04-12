@@ -9,7 +9,7 @@ import { auth } from "../../firebase";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const Register = () => {
+const CreateAccount = () => {
   const navigate = useNavigate();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -109,4 +109,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default CreateAccount;
